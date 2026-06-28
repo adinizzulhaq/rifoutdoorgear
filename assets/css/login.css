@@ -1,0 +1,125 @@
+:root {
+  --primary-color: #d97706;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background:
+    linear-gradient(rgba(46, 94, 59, 0.08), rgba(46, 94, 59, 0.08)),
+    url("../img/login-bg.jpg");
+}
+
+.login-card {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.login-card img {
+  width: 90px;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.login-card h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.login-card p {
+  text-align: center;
+  color: #777;
+  margin: 15px 0 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.input-box i {
+  color: #888;
+}
+
+.input-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+}
+
+.remember a {
+  color: var(--primary-color);
+}
+
+button {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  background: #fff;
+  color: var(--primary-color);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+
+span a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-card {
+    width: 100%;
+  }
+}

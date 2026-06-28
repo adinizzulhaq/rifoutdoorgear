@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Rif Outdoor Gear</title>
+    <!-- Logo Website -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <!-- Google Fonts : Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <div class="login-card">
+        <img src="assets/img/logo.png" alt="Logo" />
+        <h2>Selamat Datang</h2>
+        <p>
+          Masuk untuk melanjutkan ke <br />
+          Rif Outdoor Gear
+        </p>
+        <form id="loginForm">
+          <div class="input-group">
+            <label>Email</label>
+            <div class="input-box">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Masukkan email" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label>Password</label>
+            <div class="input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Masukkan password" />
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+          <div class="remember">
+            <label>
+              <input type="checkbox" />
+              Ingat Saya
+            </label>
+            <a href="#">Lupa Password?</a>
+          </div>
+          <button>Masuk</button>
+        </form>
+        <span>
+          Belum punya akun?
+          <a href="register.html">Daftar</a>
+        </span>
+      </div>
+    </div>
+
+    <!-- Script Javascript -->
+    <script src="assets/js/login.js"></script>
+    <!-- Script SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
